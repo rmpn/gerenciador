@@ -4,7 +4,10 @@
 <html>
 <body>
 
-
+   <c:import url="logout-parcial.jsp"/>
+   
+   
+   
     <c:if test="${not empty empresa }">	
 	   Empresa  ${empresa} criada 
 	        em <fmt:formatDate value="${dataAbertura}" pattern="dd/MM/yyyy"/>  
